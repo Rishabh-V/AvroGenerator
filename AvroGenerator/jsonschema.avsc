@@ -1,0 +1,22 @@
+{
+  "type": "record",
+  "name": "BabyNamesData",
+  "namespace": "avro",
+  "fields": [
+    {
+      "name": "state",
+      "type": [ "null", "string" ],
+      "doc": "2 - digit state code"
+    },
+    {
+      "name": "name",
+      "type": [ "null", "string" ],
+      "doc": "Given name of a person at birth"
+    },
+    {
+      "name": "number",
+      "type": [ "null", "long" ],
+      "doc": "Number of occurrences of the name"
+    }
+  ]
+}
